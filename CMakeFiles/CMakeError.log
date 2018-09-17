@@ -1,0 +1,68 @@
+Determining if the function gethostbyname_r exists failed with the following output:
+Change Dir: /Users/useruser/Desktop/Thrift-Xcode/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_cd7f4" "-configuration" "Debug"
+=== BUILD TARGET cmTC_cd7f4 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/useruser/Desktop/Thrift-Xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_cd7f4.build/Objects-normal/x86_64
+write-file /Users/useruser/Desktop/Thrift-Xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_cd7f4.build/Objects-normal/x86_64/cmTC_cd7f4.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_cd7f4.build/Objects-normal/x86_64/CheckFunctionExists.o /Applications/CMake.app/Contents/share/cmake-3.12/Modules/CheckFunctionExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/useruser/Desktop/Thrift-Xcode/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.13 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -I/Users/useruser/Desktop/Thrift-Xcode/CMakeFiles/CMakeTmp/Debug/include -I/Users/useruser/Desktop/Thrift-Xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_cd7f4.build/DerivedSources/x86_64 -I/Users/useruser/Desktop/Thrift-Xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_cd7f4.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/useruser/Desktop/Thrift-Xcode/CMakeFiles/CMakeTmp/Debug -DCHECK_FUNCTION_EXISTS=gethostbyname_r -MMD -MT dependencies -MF /Users/useruser/Desktop/Thrift-Xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_cd7f4.build/Objects-normal/x86_64/CheckFunctionExists.d --serialize-diagnostics /Users/useruser/Desktop/Thrift-Xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_cd7f4.build/Objects-normal/x86_64/CheckFunctionExists.dia -c /Applications/CMake.app/Contents/share/cmake-3.12/Modules/CheckFunctionExists.c -o /Users/useruser/Desktop/Thrift-Xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_cd7f4.build/Objects-normal/x86_64/CheckFunctionExists.o
+
+Ld Debug/cmTC_cd7f4 normal x86_64
+    cd /Users/useruser/Desktop/Thrift-Xcode/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.13
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -L/Users/useruser/Desktop/Thrift-Xcode/CMakeFiles/CMakeTmp/Debug -F/Users/useruser/Desktop/Thrift-Xcode/CMakeFiles/CMakeTmp/Debug -filelist /Users/useruser/Desktop/Thrift-Xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_cd7f4.build/Objects-normal/x86_64/cmTC_cd7f4.LinkFileList -mmacosx-version-min=10.13 -Xlinker -object_path_lto -Xlinker /Users/useruser/Desktop/Thrift-Xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_cd7f4.build/Objects-normal/x86_64/cmTC_cd7f4_lto.o -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/useruser/Desktop/Thrift-Xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_cd7f4.build/Objects-normal/x86_64/cmTC_cd7f4_dependency_info.dat -o /Users/useruser/Desktop/Thrift-Xcode/CMakeFiles/CMakeTmp/Debug/cmTC_cd7f4
+Undefined symbols for architecture x86_64:
+  "_gethostbyname_r", referenced from:
+      _main in CheckFunctionExists.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Ld Debug/cmTC_cd7f4 normal x86_64
+(1 failure)
+
+
+Performing C++ SOURCE FILE Test STRERROR_R_CHAR_P failed with the following output:
+Change Dir: /Users/useruser/Desktop/Thrift-Xcode/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_3280b" "-configuration" "Debug"
+=== BUILD TARGET cmTC_3280b OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/useruser/Desktop/Thrift-Xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_3280b.build/Objects-normal/x86_64
+write-file /Users/useruser/Desktop/Thrift-Xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_3280b.build/Objects-normal/x86_64/cmTC_3280b.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_3280b.build/Objects-normal/x86_64/src.o src.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/useruser/Desktop/Thrift-Xcode/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.13 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -I/Users/useruser/Desktop/Thrift-Xcode/CMakeFiles/CMakeTmp/Debug/include -I/Users/useruser/Desktop/Thrift-Xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_3280b.build/DerivedSources/x86_64 -I/Users/useruser/Desktop/Thrift-Xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_3280b.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/useruser/Desktop/Thrift-Xcode/CMakeFiles/CMakeTmp/Debug -Wno-variadic-macros -Wno-long-long -Wno-c++11-long-long -Wno-deprecated-register -DSTRERROR_R_CHAR_P -MMD -MT dependencies -MF /Users/useruser/Desktop/Thrift-Xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_3280b.build/Objects-normal/x86_64/src.d --serialize-diagnostics /Users/useruser/Desktop/Thrift-Xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_3280b.build/Objects-normal/x86_64/src.dia -c /Users/useruser/Desktop/Thrift-Xcode/CMakeFiles/CMakeTmp/src.cxx -o /Users/useruser/Desktop/Thrift-Xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_3280b.build/Objects-normal/x86_64/src.o
+/Users/useruser/Desktop/Thrift-Xcode/CMakeFiles/CMakeTmp/src.cxx:3:27: error: cannot initialize a variable of type 'char *' with an rvalue of type 'int'
+  int main(){char b;char *a = strerror_r(0, &b, 0); return(0);}
+                          ^   ~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_3280b.build/Objects-normal/x86_64/src.o src.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+Source file was:
+
+  #include <string.h>
+  int main(){char b;char *a = strerror_r(0, &b, 0); return(0);}
+  
